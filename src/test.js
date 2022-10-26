@@ -72,10 +72,10 @@ function Test() {
                 </div>
                 <div class="column" id="b">
                   <p id="q">
-                    {item.completed ? Math.floor(Math.random() * 20 + 10) : 0}
+                    {item.completed ? item.scores[0].score: "0"}
                   </p>
                   <p id="q">
-                    {item.completed ? Math.floor(Math.random() * 20 + 10) : 0}
+                    {item.completed ? item.scores[1].score: "0"}
                   </p>
                 </div>
                 <div class="column" id="c">
