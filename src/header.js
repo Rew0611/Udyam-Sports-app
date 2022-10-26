@@ -36,7 +36,7 @@ function Header() {
       <Routes>
           <Route path="/toast" element={<Toast/>} />
           <Route path="/test" element={<Test/>} />
-          <Route path="/toast" element={<Navigate replace to="/toast" />} />
+          <Route path="/" element={<Navigate replace to="/toast" />} />
         </Routes>
       </BrowserRouter>
   );
