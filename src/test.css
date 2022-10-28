@@ -92,10 +92,11 @@
 #b{
     display: flex;
     position: relative;
+    z-index: -1;
 }
 #q{
     margin-left: 30%;
-    z-index: -1;
+    
 
 }
 
